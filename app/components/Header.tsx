@@ -4,7 +4,7 @@ import ImageHome from '../../public/p-home.png'
 
 export default function Header() {
   return (
-    <div className='h-[80vh] max-w-[1200px] m-auto grid grid-cols-1 md:grid-cols-2 p-5 pt-[150px] '>
+    <div className='h-[70vh] max-w-[1200px] m-auto grid grid-cols-1 md:grid-cols-2 p-5 pt-5 '>
       <div className="order-2 md:order flex justify-center flex-col">
             <h1 className="text-xl md:text-4xl lg:text-6xl text-stone-700 font-black text-center md:text-left mb-2">
                 Le Monde des Pizzas Gourmande
