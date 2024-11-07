@@ -34,7 +34,7 @@ export default function Home() {
     <>
       <Nav cartQuantity={cartQuantity} />
       <Header />
-      <ListPizza />
+      <ListPizza  pizzas={pizzas} addToCart={addToCart} />
       <ToastContainer />
       <Footer />
     </>

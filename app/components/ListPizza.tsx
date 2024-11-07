@@ -4,8 +4,8 @@ import Card from "./Card"
 import Modal from "./Modal"
 
 interface ListProps {
-    pizzas: Pizza[]
-    addToCart: (pizza: Pizza) => void
+    pizzas: Pizza[];
+    addToCart: (pizza: Pizza) => void;
 }
 
 const ListPizza: React.FC<ListProps> = ({ pizzas, addToCart }) => {
